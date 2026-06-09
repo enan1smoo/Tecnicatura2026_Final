@@ -1,0 +1,23 @@
+//Tipo de dato Undefined
+var x;
+console.log(x);
+
+x = undefined;
+console.log(x);
+
+
+//Tipo de dato null
+//Null: signiica ausencia de valor
+var y = null; // null no es un tipo de dato, pero su origen es de tipo object
+console.log(typeof y);
+
+
+//Tipo de dato array y empty string
+var autos = ["Renault", "Koenignsegg", "Pagani", "BMW"];
+console.log(autos);
+console.log(typeof autos); //Preguntamos que tipo de datos es
+
+//Dato empty string
+var z= "";
+console.log(z); //Esto se refiere a que es una cadena vacia
+console.log(typeof z);

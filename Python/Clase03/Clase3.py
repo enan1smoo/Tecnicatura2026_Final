@@ -1,0 +1,58 @@
+# a: str = 10 El hecho de agregar str dentro de una variable no cambia el tipo de valor que contiene la misma, solo es una guia por si alguien quiere revisar nuestro codigo
+a = 10
+print(type(a)) # al imprimir esto, el tipo de valor que aparecera es de tipo int (entero)
+
+print("") # SDL
+
+# Tipos de variables:
+b = "Que tengas buen dia capo"
+c = 142
+d = 12.2
+e = False # IMPORTANTE poner la primer letra en True o False en mayuscula
+print(type(b)) # Tipo str (Cadena de caracteres)
+print(type(c)) # Tipo int (Entero)
+print(type(d)) # Tipo float (numero Real con parte decimal)
+print(type(e)) # Tipo bool (varibale booleana, es decir, verdadero o falso)
+
+print("") # SDL
+
+# Manejo de cadenas (String)
+MyFavoriteSinger = "Michael Jackson:"
+Caracteristica = "The KING of P0P"
+print("Mi cantante y compositor favorito es:", MyFavoriteSinger, Caracteristica)
+
+print("") # SDL
+
+numero1 = "6"
+numero2 = "8"
+print(numero1 + numero2) # Solo nos va a concatenar los valores, ya que son de tipo str
+
+# Para solucionar esto, se convierten esos valores a tipo int
+print(int(numero1) + int(numero2)) #Ahora si nos mostrara la suma de ambos numeros
+
+print("") # SDL
+
+# Tipos Booleanos (Bool)
+MiBooleano = 3 > 2
+print(MiBooleano) # Para tener en cuenta: Nunca se va a ejecutar un print mostrando True y False juntos
+
+if MiBooleano:
+    print("El resultado es Verdadero")
+else:
+    print("El resultado es Falso")
+
+print("") # SDL
+
+# Procesar la entrada del usuario
+# Funcion input
+resultado = input("Ingrese un numero: ") # Regresa un dato de tipo string
+print("Numero ingresado:", resultado)
+
+print("") # SDL
+
+
+# Conversion de la entrada de datos
+numero1 = int(input("Ingrese el primer numero: "))
+numero2 = int(input("Ingrese el segundo numero: "))
+resultado = numero1 + numero2
+print("El resultado de la suma es: ", resultado)

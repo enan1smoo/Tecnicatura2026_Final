@@ -1,0 +1,34 @@
+var nombre = 'Axel';  //Variable de tipo String
+console.log(nombre);
+
+var numero = 5990;  //Tipo numero
+console.log(numero);
+
+var objeto = {
+    nombre : "Axel",
+    apellido : "Navarrete",
+    telefono : "2643934252"
+}
+console.log(objeto);
+
+//Variable tipo Boolean
+var bandera = true;
+console.log(typeof bandera);
+
+//Tipo de dato funcion
+function miFuncion(){}
+console.log(typeof miFuncion);
+
+//Tipo de dato symbol
+var simbolo = Symbol("Mi simbolo");
+console.log(simbolo);
+
+//Tipo de dato clase (es una funcion)
+class Persona{
+    constructor(nombre,apellido){
+        this.nombre = nombre;       //El comando "this" es para hacer referencia a los atributos de nuestra clase
+        this.apellido = apellido;
+    }
+}
+
+console.log(typeof Persona);

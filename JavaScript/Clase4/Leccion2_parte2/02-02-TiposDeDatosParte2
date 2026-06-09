@@ -1,0 +1,25 @@
+// Tipos de datos en JavaScript
+/*
+La sintaxis en lo que es comentarios
+es muy similar a la de Java
+realmente diriamos que es identica
+*/
+
+var nombre = 'Axel';  //Variable de tipo String
+console.log(typeof nombre);
+
+nombre = 7; // Se pueden reutilizar variables
+console.log(typeof nombre);
+
+nombre = 12.2;
+console.log(typeof nombre);
+
+var numero = 5990;  //Tipo numero
+console.log(numero);
+
+var objeto = {  //Tipo objeto
+    nombre : "Axel",
+    apellido : "Navarrete",
+    telefono : "2643934252"
+}
+console.log(typeof objeto);
