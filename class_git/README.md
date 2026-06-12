@@ -66,6 +66,7 @@ Revisar y ejecutar cada comando, hacerlo como practica
 Profesor Ariel Betancud
 
 
+
 # CLASE 2 MIÉRCOLES 22 DE ABRIL DEL 2026
 ## Abrir git bash en Window o la terminal de Linux o de Mac: al abrir Git Bash hacerlo como administrador
 
@@ -223,36 +224,37 @@ Profesor Ariel Betancud
 
 
 # CLASE 4 MIÉRCOLES 6 DE MAYO DEL 2026
+
 ## Analizar cambios en los archivos de tu proyecto Git parte 4
 
 **Ingresamos de la siguiente manera:**
 
-*Abrir git bash en Window o la terminal de Linux o de Mac: al abrir Git Bash hacerlo como administrador, en terminal también o usar sudo para permisos especiales.*
+***Abrir git bash en Window o la terminal de Linux o de Mac: al abrir Git Bash hacerlo como administrador, en terminal también o usar sudo para permisos especiales.***
 
 ## TAREA -> AGREGAR LOS COMENTARIOS EN LOS COMANDOS, PARA SABER QUE PASA CON CADA UNO.
 
 ```sh
-cd tecnicatura
+cd tecnicatura # Elegimos la carpeta de la tecnicatura
 
-cd class-git
+cd class-git # Ingresamos en nuestra carpeta de Git
 
-ls
+ls # Vemos los archivos y directorios que ya tenemos
 
-touch historia.txt
+touch historia.txt # Crea un archivo con su extención
 
-code .
+code . # Abrimos el Visual Studio Code
 ```
 
 > #Modificamos el archivo historia.txt colocando lo siguiente: Bienvenido mi nombre es Axel
 
 ```sh
-ctrl + s
+ctrl + s # Guardamos poniendo el nombre: historia.txt
 
-git status
+git status # 
 
-git add .
+git add . # 
 
-git status
+git status # 
 
 git commit #Sin agregar -m veremos que pasa, se abre el editor de texto vim
 ```
@@ -277,7 +279,7 @@ git add .
 git commit
 ```
 
-> #Se abre un editor de código basado en línea de comandos, editor de texto como VSC llamado vim
+> #Se abre un editor de código basado en línea de comandos, editor de texto como VSC llamado **vim**
 
 ```sh
 Esc + i #Para comenzar a escribir mensaje del commit, no suele ser necesario
