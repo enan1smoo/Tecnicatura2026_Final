@@ -1,4 +1,4 @@
-# Calcular la suma de "N" primeros numeros
+# EJercicio 2 Calcular la suma de "N" primeros numeros
 
 numN = int(input("Cuantos numeros desea sumar?: "))
 

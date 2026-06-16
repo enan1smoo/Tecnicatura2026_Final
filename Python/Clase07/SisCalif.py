@@ -1,4 +1,3 @@
-
 # El objetivo del programa sera crear un sistema de calificaciones de la sgte manera:
 # Le pedimos al usuario que ingrese un valor del 0 al 10.
 
