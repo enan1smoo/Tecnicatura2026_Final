@@ -1,41 +1,60 @@
-Sintaxis similares entre Java y JavaScript
-Operadores Simplificados
-+=
--=
-*=
-/=
+||Sintaxis similares entre Java y JavaScript||
 
-Operadores Aritméticos
+~~~ Operadores Simplificados/Compuestos ~~~
++=  (suma igual)
+-=  (resta igual)
+*=  (multiplicación igual)
+/=  (división igual)
+%=  (residuo igual)
+**=  (exponente igual)
+
+~~~ Operadores Aritméticos ~~~
 +  (suma)
 -  (resta)
 *  (multiplicación)
 /  (división)
+%  (residuo)
+**  (exponente)
 
-Operador de Asignación
+~~~ Operador de Asignación ~~~
 =
+Los operadores simplificados también asignan
 
-Operadores de Comparación
-==
+~~~ Operadores de Comparación (Boolean) ~~~
+==  (revisa el valor sin importar el tipo de dato)
+===  (para JS; Revisa el valor y el tipo de dato también)
+//A este operador "===" se lo llama de igualdad estricta
 
-Documentar
-// = Para una sola linea de comentario
+~~~ Documentar ~~~
+// = Para una sola línea de comentario
 /* */ = Para múltiples líneas de comentario
 
-Secuencias de escape (para mostrar dentro de una cadena)
+~~~ Secuencias de escape (para mostrar dentro de una cadena) ~~~
 \' = Mostrar una comilla simple dentro de una cadena en la salida de información
 \" = Mostrar doble comilla dentro de una cadena en la salida de información
 \\ = Barra invertida, diagonal inversa, es para mostrar un back slash
-\n = Esto es un salto de linea
+\n = Esto es un salto de línea
 \r = Retorno
 \t = Tabulación
 \b = Retroceso
 \f = Salto de pagina
 
-Operador de Aumento
+~~~ Operador de Aumento ~~~
 ++  (suma de 1 en 1)
+Ejemplo: Let z = ++a;  //PreIncremento (Evalúa de izq a der y le suma un numero mas a la variable)
+Ejemplo: z = a++;  //PosIncremento (La variable z solo recibe el valor que contenga la variable a, pero en la prox vuelta, aumentara un numero, a valdría 3 pero z seguirá valiendo 2)
 
-Operador de Decremento
+~~~ Operador de Decremento ~~~
 --  (resta de 1 en 1)
+Ejemplo: Let z = --a;  //PreDecremento (Evalúa de izq a der y le resta un numero menos a la variable)
+Ejemplo: z = a--;  //PosDecremento (La variable z solo recibe el valor que contenga la variable a, pero en la prox vuelta, restara un numero)
 
+~~~ Operador Distinto, Diferente (Boolean) ~~~
+!=  (Comprueba valores sin revisar el tipo)
+!==  (Comprueba el valor y también el tipo)
 
-
+~~~ Operadores Relacioneles (Boolean) ~~~
+<  (MENOR que)
+>  (MAYOR que)
+<=  (MENOR o igual que)
+>=  (MAYOR o igual que)

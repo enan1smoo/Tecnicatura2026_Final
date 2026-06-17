@@ -1,7 +1,8 @@
-let edad = 20;
-if edad < 18 {
-print("Usted no es mayor de edad")
+let edad = 20, adulto = 18;
+
+if (edad >= adulto){
+   console.log("Usted es una persona adulta")
 }
-else {
-    print("Eres mayor de edad")
+else{
+   console.log("Usted es menor de edad")
 }
