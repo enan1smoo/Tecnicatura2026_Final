@@ -61,4 +61,4 @@ Ejemplo: z = a--;  //PosDecremento (La variable z solo recibe el valor que conte
 
 ~~~ Operadores Logicos ~~~
 And -->(&& Doble aspersan)
-Or  -->
+Or  -->(||)
