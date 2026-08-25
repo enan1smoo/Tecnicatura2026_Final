@@ -1,4 +1,7 @@
 # Lista = Axel, Marcos, Iara, Benicio
+# Colecciones en python
+
+# Las listas es lo que se conoce en otros lenguajes como arreglos o vectores
 
 lista = ["Axel", "Marcos", "Iara", "Benicio"]
 print(lista) #Imprimimos todos los elementos dentro de la lista
@@ -36,6 +39,11 @@ print(len(lista))
 
 # Agregamos un elemento a nuestra lista
 lista.append("Cade")
+lista.append([1, 2, 3])
+lista.append(True)
+lista.append(10.45)
+lista.append([4, 5])
+lista.append(7)
 print(lista)
 print(len(lista))
 
